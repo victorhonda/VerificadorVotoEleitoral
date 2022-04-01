@@ -1,0 +1,105 @@
+/* Padrões globais */
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+/* Style */
+body {
+  background: #363537;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background: #292929;
+  padding: 40px;
+  border-radius: 10px;
+}
+.form h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.form input[type="text"],
+.form input[type="number"] {
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form input[type="submit"] {
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  background: #f09916;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.form input[type="submit"]:hover {
+  background: #dd8c11;
+}
+
+.form label {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.resultado {
+  background: #292929;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 20px;
+  color: #dfdfdf;
+  transition: transform 0.5s;
+  text-align: center;
+  border: #dd8c11 solid 1px;
+}
+
+footer {
+  background: #0c0c0c;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  width: 100vw;
+}
