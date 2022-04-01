@@ -1,0 +1,2 @@
+# VerificadorVotoEleitoral
+Created with CodeSandbox
